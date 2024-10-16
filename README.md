@@ -1,5 +1,4 @@
 
-Here’s a more detailed template for your README file based on your project’s structure:
 
 ETEDSML-Project
 Table of Contents
