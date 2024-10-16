@@ -7,7 +7,8 @@ Data Transformation: Clean and transform the data for machine learning models.
 Model Training: Use CatBoost for training and evaluation.
 Web Interface: Basic HTML templates for interaction.
 Logging: Logs all operations for easier debugging.
-├── src
+
+src
 │   ├── components
 │   │   ├── data_ingestion.py        # Handles data loading and splitting
 │   │   ├── data_transformation.py   # Manages feature engineering and transformation
