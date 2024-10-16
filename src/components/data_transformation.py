@@ -36,7 +36,8 @@ class DataTransformation:
                 "lunch",
                 "test_preparation_course",
             ]
-
+            ###study these piplines very well and why we used different like median and most frequent
+            ### why onhotencoder has been used ehy not other 
             num_pipeline= Pipeline(
                 steps=[
                 ("imputer",SimpleImputer(strategy="median")),
@@ -100,7 +101,7 @@ class DataTransformation:
 
             input_feature_train_arr=preprocessing_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr=preprocessing_obj.transform(input_feature_test_df)
-
+            ### why we do this np.c
             train_arr = np.c_[
                 input_feature_train_arr, np.array(target_feature_train_df)
             ]
